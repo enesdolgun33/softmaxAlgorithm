@@ -25,15 +25,13 @@ Bu kriterlerin her birine belirli ağırlıklar atanır ve her mahalle için top
 
 Softmax algoritması, bir dizi puanı olasılık dağılımına dönüştüren matematiksel bir fonksiyondur. Bu algoritma, her bir puanın toplam içindeki önemini belirlemek için kullanılır. Softmax fonksiyonu aşağıdaki formüle sahiptir:
 
-\[
-P(i) = \frac{e^{s_i}}{\sum_{j} e^{s_j}}
-\]
+$$ P(i) = \frac{e^{s_i}}{\sum e^{s_j}} $$
 
 Burada:
 
-- \( P(i) \), \( i \) numaralı mahalleye ait softmax olasılığıdır.
-- \( s_i \), \( i \) numaralı mahalleye ait toplam puandır.
-- \( \sum_{j} e^{s_j} \), tüm mahallelerin üstel fonksiyonlarının toplamıdır.
+- **P(i)**, i. mahalleye ait softmax olasılığıdır.
+- **s_i**, i. mahalleye ait toplam puandır.
+- **∑ e^{s_j}**, tüm mahallelerin üstel fonksiyonlarının toplamıdır.
 
 Bu yöntem, puanları normalleştirerek tüm değerlerin toplamının 1 olmasını sağlar ve mahallelerin birbirleriyle kıyaslanmasını kolaylaştırır.
 
