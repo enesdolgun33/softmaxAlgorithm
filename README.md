@@ -29,9 +29,9 @@ $$ P(i) = \frac{e^{s_i}}{\sum e^{s_j}} $$
 
 Burada:
 
-- **P(i)**, i. mahalleye ait softmax olasılığıdır.
-- **s_i**, i. mahalleye ait toplam puandır.
-- **∑ e^{s_j}**, tüm mahallelerin üstel fonksiyonlarının toplamıdır.
+- <p><i>P(i)</i>, <i>i</i>. mahalleye ait softmax olasılığıdır.</p>
+- <p><i>s<sub>i</sub></i>, <i>i</i>. mahalleye ait toplam puandır.</p>
+- <p>∑ e<sup>s<sub>j</sub></sup>, tüm mahallelerin üstel fonksiyonlarının toplamıdır.</p>
 
 Bu yöntem, puanları normalleştirerek tüm değerlerin toplamının 1 olmasını sağlar ve mahallelerin birbirleriyle kıyaslanmasını kolaylaştırır.
 
