@@ -70,6 +70,7 @@ This method normalizes the scores so that the sum of all values is 1, making it 
 4. **En Uygun Güzergâhın Seçilmesi**: En yüksek softmax olasılığına sahip mahalle en uygun güzergâh olarak belirlenir.
 5. **Maliyet-Fayda Analizi**: Her mahalle için maliyetin sosyal faydaya oranı hesaplanarak bir değerlendirme yapılır.
 <br>
+
 1. **Defining Neighborhoods**: Specific neighborhoods are defined in the program, and criteria values are assigned to each.
 2. **Calculating Scores Based on Criteria**: The total score for neighborhoods is calculated based on the determined weights.
 3. **Applying the Softmax Algorithm**: The calculated scores are normalized using the softmax algorithm to determine the relative importance of neighborhoods.
